@@ -1,0 +1,26 @@
+.container_libraryPage{
+border-bottom: 1px solid rgb(143, 140, 140);
+padding: 1rem 2rem;
+
+}
+.title_container_LibraryPage{
+   margin: 0.5rem 4rem;
+}
+.title_container_LibraryPage b{
+    margin: auto 0.5rem;
+    padding: auto 0.5rem;
+}
+.container_videoList_LibraryPage{
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    max-height: 100vh;
+
+}
+.container_videoList_LibraryPage:hover{
+        overflow-y: auto;
+        scroll-behavior: smooth;
+
+}

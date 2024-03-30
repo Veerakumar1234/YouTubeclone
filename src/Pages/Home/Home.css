@@ -1,0 +1,27 @@
+.navigation_Home{
+    color:black;
+    position: sticky;
+    display: flex;
+    top: 0;
+    margin: 5px 0px 15px;
+    background-color: white;
+}
+.navigation_Home:hover{
+        overflow-x: auto;
+}
+.btn_nav_home{
+    margin: 0.5rem;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:rgb(224, 224, 224);
+    color: black;
+}
+.btn_nav_home:hover{
+    background-color: rgb(172, 171, 171);
+    
+}
+.btn_nav_home:nth-child(1){
+    background-color: black;
+    color: white;
+}
