@@ -1,0 +1,131 @@
+.container_LeftSideBar{
+        padding:5px;
+}
+.h_e_s_main_container{
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-bottom: 10px;
+
+}
+.home_sidebar_div{
+    display: block;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px 5px 10px;
+}
+.home_sidebar_div:hover{
+    background-color:rgb(221, 221, 221);
+   
+
+}
+.home_sidebar_div .icon_home_sidebar_div,
+.text_home_sidebar_div{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 0px;
+}
+
+/*------------------------------------------------------*/
+.explore_sidebar_div{
+    display: block;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px 10px;
+    text-align: center;
+}
+.explore_sidebar_div:hover{
+    background-color:rgb(221, 221, 221);
+   
+
+}
+.explore_sidebar_div .icon_explore_sidebar_div,
+.text_explore_sidebar_div{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 0px;
+
+}
+
+/*------------------------------------------------------*/
+.shorts_sidebar_div{
+    display: block;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px 10px;
+    text-align: center;
+}
+.shorts_sidebar_div:hover{
+    background-color:rgb(221, 221, 221);
+   
+
+}
+.explore_shorts_div .icon_shorts_sidebar_div,
+.text_shorts_sidebar_div{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 0px;
+
+}
+
+.subscription_sidebar_div{
+    display: block;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px 10px;
+    text-align: center;
+}
+.subscription_sidebar_div:hover{
+    background-color:rgb(221, 221, 221);
+   
+
+}
+
+.subscription_sidebar_div .icon_subscription_sidebar_div,
+.text_subscription_sidebar_div{
+    font-family: sans-serif;
+    font-size:10px;
+    margin: 0;
+    
+}
+
+/*------------------------------------------------------*/
+.library_sidebar_div{
+    display:block;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding:10px 5px 10px;
+    text-align: center;
+}
+.library_sidebar_div:hover{
+    background-color:rgb(221, 221, 221);
+   
+
+}
+.library_sidebar_div .icon_library_sidebar_div,
+.text_library_sidebar_div{
+    
+    font-family: sans-serif;
+    font-size: 10px;
+    margin:0;
+
+}

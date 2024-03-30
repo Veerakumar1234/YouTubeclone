@@ -1,0 +1,50 @@
+
+.Chanel_logo_App{
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: auto;
+  border-radius: 50px;
+  background-color: rgb(224,227,214);
+  display:flex;  
+  justify-content: center;
+  align-items: center;
+  
+
+  
+  
+}
+.fstChar_logo_App{
+  margin: auto;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer; 
+   padding: 10px;
+
+
+}
+.dot{
+  height: 4px;
+  width: 4px;
+  border-radius: 100%;
+  background-color:black;
+  margin: auto 0.5rem;
+}
+.container_pages_App{
+  display: flex;
+  
+}
+.container2_pages_App{
+  width: calc(100vw - 5rem);
+  height: calc(100vh - 3.65rem);
+  overflow-y: auto;
+}
+.video_box_app{
+  width: 21rem;
+  height: 17rem;
+  margin-bottom: 1rem;
+  border:2px solid transparent;
+}
+video{
+  display: flex;
+  border-radius: 10px;
+}

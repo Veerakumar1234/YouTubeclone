@@ -1,0 +1,101 @@
+
+.popup{
+    position: fixed;
+    top: 0;
+    background-color: black;
+    opacity: 0.4;
+    width: 100vw;
+    height: 100vh;
+}
+.main_container{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close_container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding-right: 20px;
+}
+.close_btn{
+    width: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(236, 230, 230);
+    text-align: center;
+    cursor: pointer;
+    margin:0px 0px 10px;
+}
+.close_btn:hover{
+    background-color: rgb(172, 121, 121);
+}
+.login_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 25vw;
+    height: 70vh;
+    border-radius: 15px;
+    outline: none;
+    padding-bottom: 20px;
+}
+.login_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25vw;
+    height: 70vh;
+    font-family: sans-serif;
+
+}
+.input_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.input_container #username,#password{
+    margin:20px 0px 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 20vw;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.input_container #submit{
+    margin: 20px 0px 10px ;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 10vw;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(238, 234, 234);
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(101, 145, 199);
+}
+.text_value a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: blue;
+}

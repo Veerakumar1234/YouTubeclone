@@ -1,0 +1,47 @@
+.SearchList_Container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.SearchList_Container div{
+    margin-right: 30px;
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50px;
+  
+    cursor: pointer;
+}
+.video_icon_SearchList:hover{
+    background-color: rgba(219, 211, 211, 0.377);
+}
+.bell_icon_SearchList:hover{
+    background-color: rgba(219, 211, 211, 0.377);
+
+}
+
+.profile_icon_SearchList{
+    color: rgb(29, 15, 156);
+    background-color: rgba(219, 211, 211, 0.377);
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.profile_icon_SearchList:hover{
+    background-color: rgb(129, 126, 126);
+
+}
+
+
+
+ 
+
+

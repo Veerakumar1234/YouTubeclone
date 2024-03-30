@@ -1,0 +1,109 @@
+.container_drawersidebar_div{
+    height: calc(100vh - 3.4rem);
+    display: flex;
+    position: absolute;
+    z-index: 500;
+    background-color:#ffffff;
+}
+.container2_drawersidebar_div{ 
+    height: calc(100vh - 3.4rem);   
+    width: 15rem;
+    padding: 10px;
+    
+}
+.container2_drawersidebar_div:hover{
+    overflow-y: scroll;
+}
+
+.drawer_leftsidebar,.librarybtn_leftsidebar{
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-bottom: 10px;
+    
+}
+.icon_drawer_div,.icon_librarybtn_div{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.icon_drawer_div:hover{
+    background-color:rgb(221, 221, 221);
+}
+.icon_librarybtn_div:hover{
+    background-color:rgb(221, 221, 221);
+}
+.drawer_div_icon,.librarybtn_div_icon{
+    margin-left: 10px; 
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-size: 0.9em;
+
+}
+.drawer_div_text_sidebar,.librarybtn_div_text_sidebar{
+    font-family: sans-serif;
+    font-size: 0.9em;
+ 
+}
+/*-------------------------------*/
+.container_subscription_leftsidebar{
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-bottom: 10px;
+
+}
+
+.main_text_div{
+    padding: 5px;
+}
+.main_text_div h3{
+    margin: 20px;
+    font-family: sans-serif;
+}
+.channels_div{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.icon_channel p{
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 50px;
+    font-weight: bolder;
+    padding: 10px;
+    background-color:rgb(221, 221, 221);
+    margin-left:10px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+
+}
+.channel_name p{
+    font-family: sans-serif;
+    font-size: 0.9em;
+    
+}
+.channel_name p:hover{
+    color: brown;
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+/*------------------------------------*/
+.container3_drawersidebar_div{
+    display: flex;
+    
+}

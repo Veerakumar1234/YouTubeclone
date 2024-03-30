@@ -1,0 +1,88 @@
+.popup_access{
+    position:fixed;
+    top:0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.4;
+    width: 100vw;
+    height: 100vh;
+
+}
+.access_main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.sub_text_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subscribe_btn{
+    width: 120px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25vw;
+    background-color: rgb(174, 208, 231);
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 0px 20px;
+    display: none;
+
+}
+.name,.number,.email{
+    margin: 20px 0px 10px;  
+    width: 80%;
+    padding: 10px; 
+    outline: none; 
+    border: none; 
+    border-radius: 10px;
+}
+.gender{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px 5px;
+}
+.textbox{
+    width: 80%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-sizing: content-box;
+    margin: 10px 0px 10px ;
+}
+.submit{
+    width: 100px;
+    padding: 10px;
+    margin: 10px 0px 10px ;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color: rgb(30, 170, 140);
+}
+.submit:hover{
+    background-color: rgb(71, 71, 175);
+    color: aliceblue;
+
+}
+    
